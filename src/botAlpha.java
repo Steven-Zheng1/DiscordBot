@@ -1,4 +1,4 @@
-package alpha;
+package DiscordBotAlpha;
 
 import javax.security.auth.login.LoginException;
 
@@ -13,7 +13,7 @@ public class botAlpha {
 	//main method
 	public static void main(String[] args) {
 		
-		JDABuilder jda = JDABuilder.createDefault("NzA3NzA3MzA5NTM4NjcyNzUw.XxeYmw.fXWOtZKsI_9DC2vQc6TOkh5HyAs");
+		JDABuilder jda = JDABuilder.createDefault("Token");
 		JDA api = null; //null to prevent an error
 		Command status = new Command();jda.addEventListeners(status); //execute the command from another file
 		

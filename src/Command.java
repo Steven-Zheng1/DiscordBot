@@ -1,4 +1,4 @@
-package alpha;
+package DiscordBotAlpha;
 
 import java.util.Random;
 import java.util.stream.IntStream;

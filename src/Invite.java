@@ -1,4 +1,4 @@
-package alpha;
+package DiscordBotAlpha;
 
 public class Invite {
 
